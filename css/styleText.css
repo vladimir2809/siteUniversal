@@ -12,7 +12,7 @@
     src: url(../fonts/RabotoSlab-Regular.ttf);
 }
 .small{
-    //styleName: Small/Small regular text;
+    /*//styleName: Small/Small regular text;*/
     font-family: Lato;
     font-size: 12px;
     line-height: 15px;
@@ -22,7 +22,7 @@
 
 }
 .smallBold{
-    //styleName: Small/Small bold text;
+    /*//styleName: Small/Small bold text;*/
     font-family: Lato;
     font-size: 12px;
     font-weight: bold;
@@ -32,7 +32,7 @@
 
 }
 .medium{
-    //styleName: Medium/Medium regular text;
+    /*//styleName: Medium/Medium regular text;*/
     font-family: Lato;
     font-size: 14px;
     line-height: 20px;
@@ -42,7 +42,7 @@
 
 }
 .mediumBold{
-    //styleName: Medium/Medium bold text;
+ /*   //styleName: Medium/Medium bold text;*/
     font-family: Lato;
     font-size: 14px;
     font-weight: bold;
@@ -100,7 +100,7 @@
     line-height: 20px;
     letter-spacing: 0.5px;
     text-align: left;
-
+    color: white;
 }
 .category{
     //styleName: Category;

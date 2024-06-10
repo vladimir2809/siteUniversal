@@ -4,59 +4,115 @@ body {
     margin: 0 auto 0 auto;
 }
 header{
-    width: 1140px;
+    width: 1336px;
     margin: 0 auto 0 auto;
+    /*background-color: goldenrod;*/
 }
+/* DIV HEAD 1*/
 header #divHead1{
     display: flex;
+    width: 1140px;
     height: 35px;
+    margin: 0 auto 0 auto;
     border-bottom: 1px solid  #D9DADB;
 }
-header #menuAndSectionsFlex{
+header #divHead1 #menuAndSectionsFlex{
     display: flex;
     align-items: center;
     border-right: 1px solid #D9DADB;
 }
-header #menuAndSectionsFlex>h4{
+header #divHead1 #menuAndSectionsFlex>h4{
     margin: 15px;
 }
-header form{
+header #divHead1 form{
     display: flex;
     align-items: center;
     height: 35px;
 }
-header form>img{
-    margin: 15px;
+header #divHead1 form>img{
+    margin: 15px 10px 15px 25px;
 }
-header form input[type=text]{
+header #divHead1 form input[type=text]{
     width: 733px;
     height: 33px;
     border: none;
 }
-header form input[type=text]:focus{
+header #divHead1 form input[type=text]:focus{
     height: 33px;
     outline:none;
     /*border: 1px solid white;*/
 }
-header #divSubscribe{
+header #divHead1 #divSubscribe{
     display: flex;
 }
-header #divSubscribe>div{
+header #divHead1 #divSubscribe>div{
     margin-left: 10px;
 }
-header #divSubscribe>div>h4{
+header #divHead1 #divSubscribe>div>h4{
     margin-top: 1px;
     margin-bottom:0px;
 }
-header #divSubscribe>div>p{
+header #divHead1 #divSubscribe>div>p{
     margin-top: 1px;
     margin-bottom:2px;
 }
-header #divSignIn{
+header #divHead1 #divSignIn{
     display: flex;
     align-items: center;
-    margin-left: 20px;
+    margin-left: 25px;
 }
-header #divSignIn>p{
+header #divHead1 #divSignIn>p{
     margin-left: 10px;
 }
+
+/* DIV HEAD 2*/
+
+header #divHead2{
+    display: flex;
+    align-items: center;
+    width: 1140px;
+    height: 84px;
+    margin: 0 auto 0 auto;
+}
+header #divHead2 img:nth-child(1){
+    margin-left: 20px;
+}
+header #divHead2 p:nth-child(2){
+    margin-left: 15px;
+}
+header #divHead2 img:nth-child(3){
+   /* flex-grow: 2;*/
+    margin-left: 145px;
+    margin-right: 235px;
+}
+header #divHead2 p:nth-child(4){
+    margin-right: 23px;
+    font-size: 13px;
+}
+header #divHead2 img:nth-child(5){
+/*    margin-right: 50px;*/
+    margin-left: 5px;
+}
+header #divHead2 p:nth-child(6){
+     margin-left: 7px;
+}
+
+/* DIV HEAD 3*/
+
+header #divHead3{
+    height: 55px;
+    background-color:#262D33;
+   /* margin: 0 auto 0 auto;*/
+}
+header #divHead3 #divHead3Cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 46px;
+    width: 1140px;
+    height: 55px;
+    /*background-color: green; */
+    margin: 0 auto 0 auto;
+   /* z-index:10000;*/
+}
+
