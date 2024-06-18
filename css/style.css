@@ -115,4 +115,163 @@ header #divHead3 #divHead3Cont{
     margin: 0 auto 0 auto;
    /* z-index:10000;*/
 }
+/* ŒÕ≈÷ HEADER*/
 
+/* Œ—ÕŒ¬Õ€≈ ¡ÀŒ »*/
+
+/* œ≈–¬€… ¡ÀŒ  œŒ—À≈ ÿ¿œ »*/
+#divFirstTopPage{
+    width: 1336px;
+    height: 475px;
+    background-color:#262D33;
+}
+#divRecords{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    width: 1140px;
+    height: 130px;
+    top: 30px;
+    margin: 0px auto 0 auto;
+ /*   padding-top: 30px;*/
+    border-radius: 10px;
+    background: #30363D;
+    
+}
+#divRecords .recordFlex{
+    display: flex;
+    align-items: center;
+    padding-right: 35px;
+    border-right: 1px solid #4B5157;
+}
+#divRecords .recordFlex img{
+    margin-left: 10px;
+}
+#divRecords .recordFlex:last-child{
+
+    padding-right: 0px;
+    border-right: none;
+
+}
+#divRecords .recordFlex h3{
+    width: 145px;
+}
+
+
+/*¡ÀŒ  — ¡ŒÀ‹ÿ»Ã »«Œ¡–¿∆≈Õ»≈Ã*/
+
+#divFirstBigBlock{
+   /* position: relative;*/
+    display: flex;
+    width: 1140px;
+    height: 570px;
+    margin: -280px auto 0 auto;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    /*border-radius: 100px;*/
+    background-color: white;
+    z-index: 100;
+}
+#divFirstBigBlock #divBigImg{
+    /*position: relative;*/
+    width: 877px;
+    height: 570px;
+    background-image: url('../img/bigImg.png');
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    z-index: 50;
+}
+#divBigImg #divBigImgCont{
+    margin-left: 55px;
+    padding-top: 55px;
+}
+#divBigImg .avatarBigImgFlex{
+    display: flex;
+    align-items: center;
+/*    padding-top: 55px;
+    margin-left: 55px;*/
+}
+#divBigImg .avatarBigImgFlex div{
+    margin-left: 10px;
+}
+#divBigImg .avatarBigImgFlex div p:nth-child(1){
+    margin-bottom: 2px;
+    color: white;
+}
+#divBigImg .avatarBigImgFlex div p:nth-child(2){
+    margin-top: 0px;
+    color: white;
+}
+#divBigImg #divBigImgCont h3{
+    margin-top: 165px;
+    text-transform: uppercase;
+    color: #4592FF;
+}
+#divBigImg #divBigImgCont h1{
+    width: 458px;
+    margin-top: 25px;
+    /*text-transform: uppercase*/;
+    color: white;
+}
+#divBigImg #divBigImgCont #divButtonFlex{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+#divBigImgCont #divButtonFlex button{
+    width: 138px;
+    height: 40px;
+    border: 1px solid #4592FF;
+    border-radius: 20px;
+    background: #4592FF;
+    color: white;
+}
+#divBigImgCont #divButtonFlex #divPlayFlex{
+    display: flex;
+    align-items: center;
+}
+#divBigImgCont #divButtonFlex #divPlayFlex div{
+    margin-left: 10px;
+}
+#divBigImgCont #divButtonFlex #divPlayFlex div p{
+    color: white;
+}
+#divBigImgCont #divButtonFlex #divPlayFlex div p:first-child{
+    margin-bottom: 2px;
+}
+#divBigImgCont #divButtonFlex #divPlayFlex div p:last-child{
+    margin-top: 0px;
+}
+
+/*
+     Recommended for you
+*/
+#divRecommendMenu{
+    width: 263px;
+}
+#divRecommendMenu h3{
+    font-weight: 900;
+    text-align: center;
+    color: black;
+}
+.recommendItem{
+    width: 263px;
+    height: 90px;
+}
+.selectRecom{
+    background-color: #F5F5F5;
+}
+.recommendItem .recommendItemCont{
+    margin-left: 25px;
+    padding-top: 17px;
+}
+.recommendItemCont h4{
+    margin-top: 0px;
+    margin-bottom: 5px;
+    color: #3BBDC4;
+}
+.recommendItemCont p{
+    width: 180px;
+    margin-top: 0px;
+}

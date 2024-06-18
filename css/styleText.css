@@ -82,6 +82,7 @@
     font-size: 16px;
     line-height: 25px;
     text-align: left;
+    color: white;
 
 }
 .headline5UP{
@@ -90,6 +91,7 @@
     font-size: 16px;
     line-height: 25px;
     letter-spacing: 0.5px;
+    text-transform: uppercase;
     text-align: left;
 
 }
@@ -100,6 +102,7 @@
     line-height: 20px;
     letter-spacing: 0.5px;
     text-align: left;
+    text-transform: uppercase;
     color: white;
 }
 .category{
