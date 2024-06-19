@@ -167,9 +167,9 @@ header #divHead3 #divHead3Cont{
     width: 1140px;
     height: 570px;
     margin: -280px auto 0 auto;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    /*border-radius: 100px;*/
+    /*border-top-right-radius: 10px;*/
+    /*border-bottom-right-radius: 10px;*/
+    border-radius: 10px;
     background-color: white;
     z-index: 100;
 }
@@ -257,7 +257,14 @@ header #divHead3 #divHead3Cont{
 }
 .recommendItem{
     width: 263px;
-    height: 90px;
+    height: 100px;
+    border-bottom: 1px solid #D9DADB;
+}
+#divRecommendMenu div:first-child{
+    border-top: 1px solid #D9DADB;
+}
+#divRecommendMenu div:last-child:not(.posTriangle){
+    border-bottom: none;
 }
 .selectRecom{
     background-color: #F5F5F5;
@@ -274,4 +281,22 @@ header #divHead3 #divHead3Cont{
 .recommendItemCont p{
     width: 180px;
     margin-top: 0px;
+}
+.posTriangle{
+    position: relative;
+    top: -65px;
+    left: -20px;
+    z-index:100;
+}
+#divRecommendMenu div:nth-child(3) h4{
+    color:#6E99AE;
+}
+#divRecommendMenu div:nth-child(4) h4{
+    color: #AC8EE3;
+}
+#divRecommendMenu div:nth-child(5) h4{
+    color: #FFA34D;
+}
+#divRecommendMenu div:nth-child(6) h4{
+    color: #3DC47E;
 }
