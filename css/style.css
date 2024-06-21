@@ -1,10 +1,19 @@
 
 body {
-    width: 1336px;
+    width: 1366px;
     margin: 0 auto 0 auto;
 }
+/* button Read More Style*/
+.buttonReadMore{
+    width: 138px;
+    height: 40px;
+    border: 1px solid #4592FF;
+    border-radius: 20px;
+    background: #4592FF;
+    color: white;
+}
 header{
-    width: 1336px;
+    width: 1366px;
     margin: 0 auto 0 auto;
     /*background-color: goldenrod;*/
 }
@@ -121,7 +130,7 @@ header #divHead3 #divHead3Cont{
 
 /* оепбши акнй оняке ьюойх*/
 #divFirstTopPage{
-    width: 1336px;
+    width: 1366px;
     height: 475px;
     background-color:#262D33;
 }
@@ -221,14 +230,15 @@ header #divHead3 #divHead3Cont{
     align-items: center;
     gap: 30px;
 }
-#divBigImgCont #divButtonFlex button{
+/*#divBigImgCont #divButtonFlex button{
     width: 138px;
     height: 40px;
     border: 1px solid #4592FF;
     border-radius: 20px;
     background: #4592FF;
     color: white;
-}
+}*/
+
 #divBigImgCont #divButtonFlex #divPlayFlex{
     display: flex;
     align-items: center;
@@ -254,7 +264,8 @@ header #divHead3 #divHead3Cont{
 }
 #divRecommendMenu h3{
     font-weight: 900;
-    text-align: center;
+    margin-left: 25px;
+   /* text-align: center;*/
     color: black;
 }
 .recommendItem{
@@ -549,4 +560,23 @@ header #divHead3 #divHead3Cont{
     text-align: center;
     margin: 0px;
     color: white;
+}
+
+/* BIG FLOWER*/
+
+#divBigFlower{
+    width: 1366px;
+    height: 270px;
+    margin-top: 60px;
+    background-image: url("../img/ImageFlower.jpg");
+}
+
+#divBigFlower h1{
+    padding-top: 60px;
+    text-align: center;
+    color: white;
+}
+#divBigFlower button{
+    display: block;
+    margin: 25px auto 0 auto;
 }

@@ -8,7 +8,7 @@
     font-weight: bold;
 }
 @font-face{
-    font-family: 'RobotoSlab';
+    font-family: 'Roboto Slab';
     src: url(../fonts/RabotoSlab-Regular.ttf);
 }
 .small{
@@ -54,15 +54,15 @@
 }
 .headline2{
     //styleName: Headline/Headline 2;
-    font-family: Roboto Slab;
+    font-family: "Roboto Slab";
     font-size: 40px;
     line-height: 50px;
-    text-align: center;
+    text-align: left;
 
 }
 .headline3{
     //styleName: Headline/Headline 3;
-    font-family: Roboto Slab;
+    font-family: "Roboto Slab";
     font-size: 25px;
     line-height: 30px;
     text-align: left;
@@ -70,7 +70,7 @@
 }
 .headline4{
     //styleName: Headline/Headline 4;
-    font-family: Roboto Slab;
+    font-family: "Roboto Slab";
     font-size: 20px;
     line-height: 25px;
     text-align: left;
@@ -78,7 +78,7 @@
 }
 .headline5{
     //styleName: Headline/Headline 5;
-    font-family: Roboto Slab;
+    font-family: "Roboto Slab";
     font-size: 16px;
     line-height: 25px;
     text-align: left;
@@ -87,7 +87,7 @@
 }
 .headline5UP{
     //styleName: Headline/Headline 5 uppercase;
-    font-family: Roboto Slab;
+    font-family: "Roboto Slab";
     font-size: 16px;
     line-height: 25px;
     letter-spacing: 0.5px;
