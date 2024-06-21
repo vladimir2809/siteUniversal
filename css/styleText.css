@@ -9,7 +9,7 @@
 }
 @font-face{
     font-family: 'Roboto Slab';
-    src: url(../fonts/RabotoSlab-Regular.ttf);
+    src: url(../fonts/RobotoSlab-Regular.ttf);
 }
 .small{
     /*//styleName: Small/Small regular text;*/
@@ -70,7 +70,7 @@
 }
 .headline4{
     //styleName: Headline/Headline 4;
-    font-family: "Roboto Slab";
+    font-family:/* Lato*/"Roboto Slab";
     font-size: 20px;
     line-height: 25px;
     text-align: left;

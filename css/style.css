@@ -580,3 +580,73 @@ header #divHead3 #divHead3Cont{
     display: block;
     margin: 25px auto 0 auto;
 }
+
+/*  LIST NEWS*/
+#divListNews{
+    width: 1140px;
+    margin: 60px auto 0 auto;
+}
+#divListNews #listNewsCont{
+    width: 848px;
+}
+.newsItem{
+   
+    width: 848px;
+    height: 245px;
+    /*padding: 25px;*/
+    box-sizing: border-box;
+    background-color: white;
+}
+.newsItem .newsItemCont{
+    display: flex;
+    width: 798px;
+    height: 245px;
+    padding-top: 25px;
+    margin-left: 25px;
+    border-bottom: 1px solid  #D9DADB;
+    box-sizing: border-box;
+}
+.newsItem>.newsItemCont>img{
+    width: 336px;
+    height: 195px;
+}
+.divNewsText{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    height: 195px;
+    margin-left: 25px;
+}
+.divNewsText h3{
+    width: 430px;
+    
+}
+.divNewsText .headAndBookmark{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 15px;
+}
+.divNewsText .headAndBookmark h4{
+    padding-top: 5px;
+}
+.divNewsText h3{
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+.divNewsText p:first-of-type{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.divNewsText p:last-of-type{
+    vertical-align: bottom;
+   /* position: relative;
+    bottom: -10px;*/
+    /*margin-top: 20px;*/
+/*    margin-bottom: 0px;*/
+}
+.divNewsText p:last-of-type>img{
+    position: relative;
+    top: 3px;
+    /*margin-top: 40px;*/
+}
