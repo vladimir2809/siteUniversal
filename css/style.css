@@ -650,3 +650,24 @@ header #divHead3 #divHead3Cont{
     top: 3px;
     /*margin-top: 40px;*/
 }
+#listNewsCont>div:first-child, #listNewsCont>div:last-child{
+    border-radius: 10px;
+}
+#listNewsCont>div:nth-child(1) .headAndBookmark h4{
+    color: #4592FF;
+}
+#listNewsCont>div:nth-child(2) .headAndBookmark h4{
+    color: #3BBDC4;
+}
+#listNewsCont>div:nth-child(3) .headAndBookmark h4{
+    color: #FF4F52;
+}
+#listNewsCont>div:nth-child(4) .headAndBookmark h4{
+    color: #3BBDC4;
+}
+#listNewsCont>div:nth-child(5) .headAndBookmark h4{
+    color: #FF4F52;
+}
+#listNewsCont>div:nth-child(6) .headAndBookmark h4{
+    color: #AC8EE3;
+}
