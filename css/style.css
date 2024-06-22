@@ -583,6 +583,8 @@ header #divHead3 #divHead3Cont{
 
 /*  LIST NEWS*/
 #divListNews{
+    display: flex;
+    gap: 20px;
     width: 1140px;
     margin: 60px auto 0 auto;
 }
@@ -670,4 +672,96 @@ header #divHead3 #divHead3Cont{
 }
 #listNewsCont>div:nth-child(6) .headAndBookmark h4{
     color: #AC8EE3;
+}
+/*
+    RECOMENDED NEWS
+*/
+#divRecommendNews{
+    width: 263px;
+    height: 770px;
+    border-radius: 10px;
+    background-color: white;
+    counter-reset: ch1;
+}
+#divRecommendNews #recommendNewsHead{
+    width: 263px;
+    height: 59px;
+    border-bottom: 1px solid #D9DADB;
+
+}
+#divRecommendNews #recommendNewsHead h3{
+    padding-top: 20px;
+    margin-top: 0px;
+    margin-left: 25px;
+    color: black;
+}
+#divRecommendNews .recomItemCont{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 213px;
+    height: 60px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    margin-left: 25px;
+    border-bottom: 1px solid #D9DADB;
+    z-index: 10;
+   /* padding-left: 25px;
+    padding-right: 25px;*/
+}
+/*#divRecommendNews .recomItemCont{
+    height: 60px;
+    padding-bottom: 17px;
+}*/
+#divRecommendNews .recomItemCont div{
+    /*display: inline;*/
+    height: 60px;
+    margin-left: 10px;
+}
+#divRecommendNews .recomItemCont div h5{
+    position: relative;
+    margin-top: 2px;
+    margin-bottom: 0px;
+    z-index: 1000;
+}
+#divRecommendNews .recomItemCont div p{
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+#divRecommendNews>div:nth-child(8)>div{
+    border: none;
+}
+
+/*bigText*/
+#divRecommendNews .recomItemCont .bigCountNews{
+/*    display: block;*/
+    position: relative;
+    width: 20px;
+    top: -60px;
+    left: 100px;
+    font-family: Lato;
+    font-size: 70px;
+    line-height: 50px;
+    text-align: right;
+    font-weight: bold;
+    font-style: italic;
+    color: #AAAAAA44;
+    z-index: 100;
+
+}
+
+.bigCountNews::before{
+    counter-increment: ch1;
+    content: counter(ch1);
+}
+
+#divRecommendNews #recomReadMore{
+    width: 263px;
+    height: 45px;
+    border-top: 1px solid #D9DADB;
+}
+#divRecommendNews #recomReadMore h5{
+    margin-top: 12px;
+    text-align: center;
+
 }
