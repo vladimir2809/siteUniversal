@@ -765,3 +765,171 @@ header #divHead3 #divHead3Cont{
     text-align: center;
 
 }
+
+/*
+    Black Block
+*/
+#divBlackBlock{
+    width: 1366px;
+    height: 690px;
+    background-color: #262D33;
+}
+#divBlackBlock #divBlackBlockCont{
+    display: flex;
+    gap: 30px;
+    width: 1140px;
+    padding-top: 60px;
+    margin: 0px auto 0 auto;
+
+}
+/*
+    column 1
+*/
+#divBlackBlockCont #column1{
+    width: 555px;
+    height: 570px;
+    padding: 18px;
+    box-sizing: border-box;
+    background-image: url('../img/boat.jpg');
+    border-radius: 10px;
+}
+#divBlackBlockCont #column1 #buttonRed{
+    width: 45px;
+    height: 25px;
+    background-color: #FF4F52;
+    border: 1px solid #FF4F52;
+    border-radius: 3px;
+    
+}
+#divBlackBlockCont #column1 #buttonRed p{
+    margin-top: 3px;
+    text-align: center;
+    color: white;
+}
+#divBlackBlockCont #column1 #avatarCenter{
+    width: 166px;
+    /*height;*/
+    margin: 0 auto 0 auto;
+}
+#divBlackBlockCont #column1 #avatarCenter img{
+    display: block;
+    margin: 0 auto 0 auto;
+}
+#divBlackBlockCont #column1 #avatarCenter h3{
+    margin-top: 8px;
+    margin-bottom: 0px;
+    text-align: center;
+    color: white;
+}
+#divBlackBlockCont #column1 #avatarCenter p{
+    margin-top: 2px;
+    text-align: center;
+    color: #FFFFFF88;
+}
+#divBlackBlockCont #column1 #contH1{
+    width: 455px;
+    margin: 30px auto 0 auto;
+}
+#divBlackBlockCont #column1 h1{
+    
+    text-align: center;
+    color: white;
+}
+#divBlackBlockCont #column1 #buttonBlue{
+    display: block;
+    width: 185px;
+    height: 40px;
+    margin: 45px auto 0 auto;
+    background-color: #4592FF; 
+    border: 1px solid #4592FF;
+    border-radius: 30px;
+}
+#divBlackBlockCont #column1 #buttonBlue p{
+    margin-top: 3px;
+}
+#divBlackBlockCont #column1 #buttonBlue img{
+    position: relative;
+    top: 4px;
+}
+#divBlackBlockCont #column1 #buttonBlue span{
+    color: white;
+}
+#divBlackBlockCont #column1 #buttonBlue>p>span:last-child{
+    color: #FFFFFFAA;
+}
+#divBlackBlockCont #column1 #paginator{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+    width: 108px;
+    margin: 105px auto 0 auto;
+}
+#divBlackBlockCont #column1 #paginator .paginatorPoint{
+    position: relative;
+    /*width: 5px;*/
+    padding: 0px;
+    top: -13px;
+    font-size: 50px;
+    color: #FFFFFF77;
+}
+/*#divBlackBlockCont #column1 #paginator img{
+    margin-left: 10px;
+}*/
+
+
+/*
+    column 2
+*/
+#divBlackBlockCont #column2 #divBlue{
+    display: flex;
+    width: 555px;
+    height: 370px;
+    background-color: #B4D1E0;
+    border-radius: 10px;
+}
+
+#divBlackBlockCont #column2 #divBlueText{
+    width: 243px;
+    padding-top: 35px;
+    margin-left: 35px;
+}
+#divBlackBlockCont #column2 #divBlueText h3{
+    margin: 0;
+    color: #6E99AE;
+}
+#divBlackBlockCont #column2 #divBlueText h2{
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+#divBlackBlockCont #column2 #divBlueText p{
+    width: 213px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+#divBlackBlockCont #column2 #divBlueImg{
+    /*float: right;*/
+}
+#divBlackBlockCont #column2 #divBlueImg #bigCircle{
+    position: relative;
+    width: 260px;
+    height: 260px;
+    left: -20px;
+    top: 65px;
+    border-radius: 130px;
+    background-color: #D1E2EB;
+}
+#divBlackBlockCont #column2 #divBlueImg img{
+    position: relative;
+    /*width: 260px;
+    height: 260px;*/
+    left: -38px;
+    top: -242px;
+}
+
+
+#divBlackBlockCont #column2 #cartUnderBlue{
+    display: flex;
+    gap: 30px;
+    padding-top: 30px;
+}
