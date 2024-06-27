@@ -11,7 +11,9 @@ body {
     width: 1140px;
     margin: 0 auto 0 auto;
 }
-
+/*
+    TEXT PARAGRAPH 1
+*/
 /* column 1*/
 
 #divUnderHeaderCont #underHeadColumn1{
@@ -239,4 +241,77 @@ body {
 #divBigImgSlider #underSlider #authorSlider div p{
     color: #939699;
     margin: 2px;
+}
+/*
+    TEXT PARAGRAPH 2
+*/
+#textParagraphFlex2{
+    display: flex;
+    gap: 60px;
+    padding-top: 45px;
+    padding-left: 210px;
+    padding-right: 210px;
+}
+
+/* column 1*/
+
+#textParagraphFlex2 #textParagraph2Column1{
+    width: 623px;
+}
+#textParagraphFlex2 #textParagraph2Column1>p{
+    margin-bottom: 30px;
+}
+
+/* column 2*/
+
+#textParagraphFlex2 #textParagraph2Column2{
+    width: 263px;
+    padding-top: 150px;
+}
+#textParagraphFlex2 #textParagraph2Column2 h4{
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+#textParagraphFlex2 #textParagraph2Column2 h5{
+    width: 250px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    color: black;
+}
+#textParagraphFlex2 #textParagraph2Column2 p{
+    margin-top: 5px;
+}
+#textParagraphFlex2 #textParagraph2Column2 p:last-child img{
+    position:relative;
+    top: 4px;
+
+}
+/* big Quete*/
+#bigQuote{
+    display: flex;
+    gap: 30px;
+    height: 180px;
+    margin-left: 210px;
+    margin-top: 65px;
+}
+#bigQuote div:first-child{
+    position: relative;
+    top: -107px;
+    width: 450px;
+}
+#bigQuote div:first-child img{
+    position: relative;
+    top: 80px;
+    left: -15px;
+    z-index:-1;
+}
+#bigQuote div:last-child{
+    width: 200px;
+}
+#bigQuote div:last-child p:nth-child(2){
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+#bigQuote div:last-child p:last-child{
+    margin-top: 2px;
 }
