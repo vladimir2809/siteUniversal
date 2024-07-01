@@ -339,7 +339,7 @@ body {
     hashtags
 */
 #divHashTagsFlex{
-
+    margin-top: 40px;
 }
 #divHashTagsFlex .hashTag{
     display: inline;
@@ -348,5 +348,52 @@ body {
     padding: 5px;
     margin-left: 10px;
 }
+#divHashTagsFlex .hashTag:first-child{
+    margin-left: 0px;
+}
 #divHashTagsFlex .hashTag p{
+}
+/*
+    SHOW SUPPORT
+*/
+#divShowSupport{
+    margin-left: 210px;
+}
+#showSupportCont{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 40px;
+    margin-top: 25px;
+}
+.networkSupport{
+    /*display: inline;*/
+    width: 130px;
+    height: 40px;
+    border-radius: 20px;
+}
+.networkSupport p{
+    padding-top: 10px;
+    margin: 0px;
+    text-align: center;
+    
+}
+.networkSupport p img{
+    position: relative;
+    top: 3px;
+}
+.networkSupport p span{
+    color: white;
+}
+.networkSupport p span:last-child{
+    color: #FFC4C9
+}
+.redSup{
+    background-color:#FF4F52;
+}
+.blueSup{
+    background-color:#4267B2;
+}
+.greenSup{
+    background-color:#1DA1F2;
 }
