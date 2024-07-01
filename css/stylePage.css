@@ -397,3 +397,34 @@ body {
 .greenSup{
     background-color:#1DA1F2;
 }
+/*
+    BEFORE COMMENTS
+*/
+#divBeforeComments{
+    width: 1366px;
+    height: 425px;
+    margin-top: 80px;
+    background-color: #F5F5F5;
+}
+#divBeforeComments #divBeforeCommentsCont{
+    display: flex;
+    gap: 30px;
+    padding-top: 60px;  
+    margin-left: 113px;
+}
+#divBeforeCommentsCont .itemBeforeComments{
+    width: 263px;
+
+}
+#divBeforeCommentsCont .itemBeforeComments h5{
+    margin-top: 15px;
+    margin-block: 0px;
+    color: #262D33;
+}
+#divBeforeCommentsCont .itemBeforeComments>p{
+    margin-top: 15px;
+}
+#divBeforeCommentsCont .itemBeforeComments>p>img{
+    position: relative;
+    top: 4px;
+}
