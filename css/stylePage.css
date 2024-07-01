@@ -123,10 +123,12 @@ body {
 }
 #textParagraph1 #firstParagraph p{
     margin: 0px;
+    color: #4B5157;
 }
 #textParagraph1>p{
    margin-top: 0px;
    margin-bottom: 30px;
+   color: #4B5157;
 }
 #textParagraph1>h3{
     margin: 30px 0;
@@ -260,6 +262,7 @@ body {
 }
 #textParagraphFlex2 #textParagraph2Column1>p{
     margin-bottom: 30px;
+    color: #4B5157;
 }
 
 /* column 2*/
@@ -286,7 +289,7 @@ body {
     top: 4px;
 
 }
-/* big Quete*/
+/* big Quote*/
 #bigQuote{
     display: flex;
     gap: 30px;
@@ -314,4 +317,36 @@ body {
 }
 #bigQuote div:last-child p:last-child{
     margin-top: 2px;
+}
+/*
+    TEXT PARAGRAPH 3
+*/
+#divTextParagraph3{
+    width: 653px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: 210px;
+    margin-right: 210px;
+    border-bottom: 1px solid #D9DADB;
+    /*box-sizing: border-box;*/
+}
+#divTextParagraph3 p{ 
+    width: 623px;
+    margin-bottom: 30px;
+    color: #4B5157;
+}
+/*
+    hashtags
+*/
+#divHashTagsFlex{
+
+}
+#divHashTagsFlex .hashTag{
+    display: inline;
+    border: 1px solid #D9DADB;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 10px;
+}
+#divHashTagsFlex .hashTag p{
 }
