@@ -119,6 +119,7 @@ body {
     font-size: 100px;
     line-height: 75px;
     text-align: center;
+    font-weight: 900;
     color: #4592FF ;
 }
 #textParagraph1 #firstParagraph p{
@@ -314,9 +315,11 @@ body {
 #bigQuote div:last-child p:nth-child(2){
     margin-top: 10px;
     margin-bottom: 0px;
+    color: #4B5157;
 }
 #bigQuote div:last-child p:last-child{
     margin-top: 2px;
+    color: #939699;
 }
 /*
     TEXT PARAGRAPH 3
@@ -324,7 +327,7 @@ body {
 #divTextParagraph3{
     width: 653px;
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 70px;
     margin-left: 210px;
     margin-right: 210px;
     border-bottom: 1px solid #D9DADB;
@@ -427,4 +430,152 @@ body {
 #divBeforeCommentsCont .itemBeforeComments>p>img{
     position: relative;
     top: 4px;
+}
+/*
+
+    COMMENTS COMMENTS
+*/
+#divComments{
+    width: 750px;
+    padding-top: 90px;
+    margin-left: 210px;
+}
+#divComments #divCommentsHead{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#divComments #divCommentsHead h2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+#divComments #divCommentsHead h2 span{
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    text-align: left;
+    color: #939699;
+}
+#divComments #divCommentsHead button{
+    width: 163px;
+    height: 40px;
+    border: 1px solid #D9DADB;
+    border-radius: 20px;
+    background-color: white;
+}
+#divComments #divCommentsHead button span{
+    position: relative;
+    top: -2px;
+}
+#divComments .comment:nth-child(2){
+    margin-top: 30px;
+}
+.rightComm{
+    padding-left: 90px;
+}
+#divComments .comment{
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    padding-top: 20px;
+    border-top: 1px solid #D9DADB;
+}
+#divComments .comment img{
+    width: 75px;
+    height: 75px;
+}
+#divComments .comment div h5{
+    margin: 0px 0px;
+    color: black;
+}
+#divComments .comment div p{
+    width: 570px;
+    margin-top: 15px;
+}
+#divComments .comment div p:last-child img{
+    width: 15px;
+    height: 18px;
+}
+#divComments .comment div p:last-child{
+
+}
+#divComments .comment div p:last-child span:nth-child(2){
+    font-weight:900;
+}
+#divComments .comment div p:last-child img{
+    position: relative;
+    top: 5px;
+}
+#divComments .comment div p:last-child .greenReit{
+    color: #3DC47E
+}
+#divComments .comment div p:last-child .grayReit{
+    color: #939699;
+}
+#divComments .comment div p:last-child .redReit{
+    color: #FF4F52;
+}
+#divComments>button{
+    width: 750px;
+    height: 50px;
+    margin-top: 30px;
+    background-color: white;
+    border: 1px solid #D9DADB;
+    border-radius: 25px;
+    text-align: center;
+}
+#divComments>button img{
+    position: relative;
+    top: 2px;
+}
+
+/* comment think you*/
+#divYouThink{
+    display: flex;
+    /*align-items: center;*/
+    gap: 10px;
+    width: 750px;
+    height: 290px;
+    margin-top: 60px;
+    margin-left: 210px;
+    margin-bottom: 60px;
+    background-color: #F5F5F5;
+}
+#divYouThink #thinkColumn1{
+    margin-left: 30px;
+}
+#divYouThink #thinkColumn1 img{
+    position: relative;
+    width: 75px;
+    height: 75px;
+    top: 67px;
+}
+#divYouThink #thinkColumn2{
+    margin-left: 10px;
+}
+#divYouThink #thinkColumn2 h4{
+    margin-bottom: 15px;
+}
+#divYouThink #thinkColumn2 textarea{
+    width: 585px;
+    height: 130px;
+    /*margin-left: 10px;*/
+    resize: none;
+
+    border: 1px solid white;
+}
+#divYouThink #thinkColumn2 button{
+    width: 115px;
+    height: 40px;
+    margin-top: -15px;
+    background-color: #4592FF;
+    border: 1px solid #4592FF;
+    border-radius: 20px;
+    color: white;
+}
+#divYouThink #thinkColumn2 .posTriangle{
+    position: relative;
+    top: -113px;
 }
